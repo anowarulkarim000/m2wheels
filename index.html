@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M2WHEELS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css"
+    />
+  </head>
+  <body>
+    <!-- ===============NAVBAR START======================= -->
+    <aside id="nav">
+      <div class="container-fluid">
+        <div class="main-navbar">
+          <div class="navbar-brand">
+            <a href="#"><img src="./images/logo.png" alt="" /></a>
+          </div>
+          <div class="nav-wrapper">
+            <ui class="navbar-nav">
+              <li class="nav-item">
+                <a href="" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Bike Price</a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-bs-toggle="collapse"
+                  href="#collapseExampleShowroom"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  Showroom<i
+                    class="fa-duotone fa-square-caret-down ps-2 text-danger"
+                  ></i>
+                </a>
+
+                <div class="collapse" id="collapseExampleShowroom">
+                  <ul class="menu">
+                    <li><a class="nav-link" href="#">Bike Shop</a></li>
+                    <li><a class="nav-link" href="#">Gear shop</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-bs-toggle="collapse"
+                  href="#collapseExampleReview"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  Review<i
+                    class="fa-duotone fa-square-caret-down ps-2 text-danger"
+                  ></i>
+                </a>
+
+                <div class="collapse" id="collapseExampleReview">
+                  <ul class="menu">
+                    <li><a class="nav-link" href="#">User Review</a></li>
+                    <li><a class="nav-link" href="#">Features Reviews</a></li>
+                    <li><a class="nav-link" href="#">Test drive Reviews</a></li>
+                    <li><a class="nav-link" href="#">Compare Reviews</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-bs-toggle="collapse"
+                  href="#collapseExampleTips"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  Tips<i
+                    class="fa-duotone fa-square-caret-down ps-2 text-danger"
+                  ></i>
+                </a>
+
+                <div class="collapse" id="collapseExampleTips">
+                  <ul class="menu">
+                    <li><a class="nav-link" href="#">New Riders</a></li>
+                    <li><a class="nav-link" href="#">Bike Riders</a></li>
+                    <li><a class="nav-link" href="#">Bike tours</a></li>
+                    <li><a class="nav-link" href="#">Bike Buy/sell</a></li>
+                    <li><a class="nav-link" href="#">Safety</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-bs-toggle="collapse"
+                  href="#collapseExampleContact"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  More<i
+                    class="fa-duotone fa-square-caret-down ps-2 text-danger"
+                  ></i>
+                </a>
+
+                <div class="collapse" id="collapseExampleContact">
+                  <ul class="menu">
+                    <li><a class="nav-link" href="#">Contact</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ui>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <!-- ===============NAVBAR END========================= -->
+
+    <!-- ===============BODY START========================= -->
+    <section id="main">
+      <div class="container-fluid">
+        <div class="main">
+          <h2 class="highlight">Popular Brands</h2>
+          <div class="category">
+            <a href="#" class="active">Bike</a>
+            <a href="#">Helmet</a>
+            <a href="#">E-Bike</a>
+          </div>
+          <div class="showcase">
+            <div class="slider">
+              <div class="item">
+                <img src="./images/1200px-Suzuki_logo_2.svg.png" alt="" />
+              </div>
+              <div class="item">
+                <img src="./images/honda.jpg" alt="" />
+              </div>
+              <div class="item">
+                <img src="./images/tvs.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main">
+          <h2 class="highlight">New Added</h2>
+          <div class="category">
+            <a href="#" class="active">Bike</a>
+            <a href="#">Helmet</a>
+            <a href="#">E-Bike</a>
+          </div>
+          <div class="showcase">
+            <div class="slider">
+              <div class="item">
+                <img
+                  src="./images/bikes/1577173880_bajaj-pulsar-200-ns with logo.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="./images/bikes/1577174257_pulsar ns 160 twin with logo.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="./images/bikes/1577174486_bajaj platina 100 es with logo.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="./images/bikes/1577174762_bajaj discover 125 st with logo.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="./images/bikes/1577335764_Bajaj Pulsar NS 200 With Fi ABS.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="./images/bikes/1577339285_bajaj dominar D400 with logo.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="./images/bikes/1577339704_bajaj-avenger-street-220 with logo.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="./images/bikes/1577340397_bajaj pulsar 22o with logo.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="./images/bikes/1577340890_runner kite + with logo.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="./images/bikes/1577341082_Runner Bullet with logo.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="./images/bikes/1577341284_Runner Turbo 125 with logo.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="./images/bikes/1577341527_Runner knight Rider with logo.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="./images/bikes/1577341693_hawk_1 with logo.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item">
+                <img src="./images/tvs.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main">
+          <h2 class="highlight">Top Search</h2>
+          <div class="category">
+            <a href="#" class="active">Bike</a>
+            <a href="#">Helmet</a>
+            <a href="#">E-Bike</a>
+          </div>
+          <div class="showcase">
+            <div class="slider">
+              <div class="item">
+                <img src="./images/1200px-Suzuki_logo_2.svg.png" alt="" />
+                <div class="d-flex justify-content-between mt-2">
+                  <button class="btn btn-success btn-sm text-capitalize">
+                    bangla
+                  </button>
+                  <button class="btn btn-primary btn-sm text-capitalize">
+                    english
+                  </button>
+                </div>
+              </div>
+              <div class="item">
+                <img src="./images/honda.jpg" alt="" />
+                <div class="d-flex justify-content-between mt-2">
+                  <button class="btn btn-success btn-sm text-capitalize">
+                    bangla
+                  </button>
+                  <button class="btn btn-primary btn-sm text-capitalize">
+                    english
+                  </button>
+                </div>
+              </div>
+              <div class="item">
+                <img src="./images/tvs.jpg" alt="" />
+                <div class="d-flex justify-content-between mt-2">
+                  <button class="btn btn-success btn-sm text-capitalize">
+                    bangla
+                  </button>
+                  <button class="btn btn-primary btn-sm text-capitalize">
+                    english
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===============BODY END=========================== -->
+    <!-- jquary -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- slider -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/script.js"></script>
+    <!-- slider end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
